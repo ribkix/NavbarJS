@@ -14,7 +14,7 @@ if (page == "index" || page == ""){
 NavbarJS_create_item({
     type: NavbarJS_ITEM_LINK,
     classlist_link: ["uk-navbar-item","uk-logo"],
-    href: "index.html",
+    href: "..",
     inner: "<img src=\"./img/logo.png\" width=\"50px\">",
     parent: document.getElementById("navbar-left"),
     ignore_li: true
@@ -22,19 +22,19 @@ NavbarJS_create_item({
 NavbarJS_create_item({
     type: NavbarJS_ITEM_LINK,
     inner: "Home",
-    href: "index.html",
+    href: "..",
     classlist_item: classlist_home
 });
 NavbarJS_create_item({
     type: NavbarJS_ITEM_LINK,
     inner: "Download",
-    href: "download.html",
+    href: "../download",
     classlist_item: classlist_download
 });
 NavbarJS_create_item({
     type: NavbarJS_ITEM_LINK,
     inner: "Docs",
-    href: "docs.html",
+    href: "../docs",
     classlist_item: classlist_docs
 });
 NavbarJS_create_item({
